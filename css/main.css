@@ -32,6 +32,7 @@ h1 {
   width: 100%;
   left: 0;
   text-shadow: 0 2px 5px black;
+  font-family: 'Cabin', sans-serif;
 }
 
 .medallion {
@@ -62,6 +63,7 @@ a {
 
 ol li {
   list-style-type: none;
+  font-family: 'Cabin', sans-serif;
 }
 
 ol {
@@ -98,14 +100,18 @@ a:hover {
   width: 100%;
   transition: all 200ms linear;
   font-size: 3em;
+  font-family: 'Cabin', sans-serif;
 }
 
 .banner:hover .shen {
-  bottom: 1em;
+  bottom: 0.25em;
 }
 
 .paragraph {
   text-align: left;
+  font-family: 'Cabin', sans-serif;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 h2 {
@@ -113,16 +119,19 @@ h2 {
   margin: 0;
   padding-top: 1em;
   padding-bottom: 0.5em;
+  font-family: 'Cabin', sans-serif;
 }
 
 p {
   text-align: center;
   margin: 0;
   padding-bottom: 1.5em;
+  font-family: 'Cabin', sans-serif;
 }
 
 .name {
   font-style: italic;
+  font-family: 'Cabin', sans-serif;
 }
 
 .first {
@@ -141,4 +150,17 @@ p {
 
 .fourth {
   background-color: #e4c22a;
+}
+
+footer {
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #222222;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+}
+
+footer:hover {
+  text-decoration: underline;
 }
